@@ -1,0 +1,13 @@
+import java.util.*
+public class Peso {
+    public static void main(String args[]) {
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("digite o peso da pessoa");
+        double pesoAtual = teclado.nextDouble();
+        double pesoMais15 = (pesoAtual x 0,15);
+        double pesoMais20 = (pesoAtual x 0,20)
+        System.out.println("Se engordar 15% o peso sera: " + (pesoAtual + pesoMais15));
+        System.out.println("Se engordar 20% o peso sera: " + (pesoAtual + pesoMais20));
+        System.exit(0);
+    }
+}

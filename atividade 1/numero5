@@ -1,0 +1,12 @@
+import java.util.*
+public class Area {
+    public static void main(String args[]) {
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("digite o valor da diagonal maior");
+        double diagonalMaior = teclado.nextDouble();
+        System.out.println("digite o valor da diagonal menor");
+        double diagonalMenor = teclado.nextDouble();
+        System.out.println("area: " + (diagonalMaior x diagonalMenor));
+        System.exit(0);
+    }
+}

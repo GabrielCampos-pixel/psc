@@ -1,0 +1,19 @@
+import java.util.*
+public class Tabuada {
+    public static void main(String args[]) {
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("digite um numero");
+        double numero = teclado.nextDouble();
+        System.out.println("1 x " + numero + "=" (1 x numero));
+        System.out.println("2 x " + numero + "=" (2 x numero));
+        System.out.println("3 x " + numero + "=" (3 x numero));
+        System.out.println("4 x " + numero + "=" (4 x numero));
+        System.out.println("5 x " + numero + "=" (5 x numero));
+        System.out.println("6 x " + numero + "=" (6 x numero));
+        System.out.println("7 x " + numero + "=" (7 x numero));
+        System.out.println("8 x " + numero + "=" (8 x numero));
+        System.out.println("9 x " + numero + "=" (9 x numero));
+        System.out.println("10 x " + numero + "=" (10 x numero));
+        System.exit(0);
+    }
+}

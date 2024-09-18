@@ -1,0 +1,11 @@
+import java.util.*
+public class Salario {
+    public static void main(String args[]) {
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("digite o salario do funcionario");
+        double salarioFuncionario = teclado.nextDouble();
+        double novoSalario = (salarioFuncionario x 0,25);
+        System.out.println("funcionario receberá: " + (salarioFuncionario + novoSalario));
+        System.exit(0);
+    }
+}
