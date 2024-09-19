@@ -6,7 +6,7 @@ public class Cotacao {
         double cotacaoDolar = teclado.nextDouble();
         System.out.println("digite quantos dolares voce tem");
         double dolares = teclado.nextDouble();
-        System.out.println("valor em real:R$ " + (cotacaoDolar x dolares));
+        System.out.println("valor em real:R$ " + (cotacaoDolar * dolares));
         System.exit(0);
     }
 }

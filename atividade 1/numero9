@@ -6,7 +6,7 @@ public class Triangulo {
         double cateto1 = teclado.nextDouble();
         System.out.println("digite o valor do segundo cateto");
         double cateto2 = teclado.nextDouble();
-        System.out.println("A hipotenusa é: " + (cateto1 x cateto1 + cateto2 x cateto2));
+        System.out.println("A hipotenusa é: " + (cateto1 * cateto1 + cateto2 * cateto2));
         System.exit(0);
     }
 }

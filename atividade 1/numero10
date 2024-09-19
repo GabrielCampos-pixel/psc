@@ -5,9 +5,9 @@ public class Esfera {
         System.out.println("digite o valor do raio");
         double raio = teclado.nextDouble();
         final double PI = Math.PI;
-        double comprimento = 2 x PI x raio;
-        double area = PI x raio x raio;
-        double volume = (4.0 / 3.0) x PI x raio x raio x raio;
+        double comprimento = 2 * PI * raio;
+        double area = PI * raio * raio;
+        double volume = (4.0 / 3.0) * PI * raio * raio * raio;
         System.out.println("Comprimento da esfera: " + comprimento);
         System.out.println("Area da esfera: " + area);
         System.out.println("Volume da esfera: " + volume);
