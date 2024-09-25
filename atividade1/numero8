@@ -1,6 +1,6 @@
 import java.util.*
-public class Peso {
-    public static void main(String args[]) {
+public class Peso{
+    public static void main(String args[]){
         Scanner teclado = new Scanner(System.in);
         System.out.println("digite o peso da pessoa");
         double pesoAtual = teclado.nextDouble();

@@ -1,6 +1,6 @@
 import java.util.*
-public class Idade {
-    public static void main(String args[]) {
+public class Idade{
+    public static void main(String args[]){
         Scanner teclado = new Scanner(System.in);
         System.out.println("digite o ano de nascimento");
         int anoNascimento = teclado.nextInt();

@@ -1,0 +1,22 @@
+import java.util.*;
+public class Notas {
+    public static void main(String args[]) {
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("digite tres notas");
+        int nota1 = teclado.nextInt();
+        int nota2 = teclado.nextInt();
+        int nota3 = teclado.nextInt();
+        med = (nota1 + nota2 + nota3)/3;
+        System.out.println("A media entre as tres notas é:" + med);
+
+        if(med>=7 && <=10) {
+            System.out.println("Aprovado");
+        }
+        else(med>=3 && <7) {
+            System.out.println("Exame");
+        }
+        else(med>=0 && <3) {
+            System.out.println("Reprovado");
+        }
+    }
+}

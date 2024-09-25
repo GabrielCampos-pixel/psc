@@ -1,0 +1,25 @@
+import java.util.*;
+public class Massa {
+    public static void main(String args[]) {
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("digite o peso");
+        double peso = teclado.nextDouble();
+        System.out.println("digite a altura")
+        double altura = teclado.nextDouble();
+        imc = (altura*altura)/peso;
+        System.out.println("O indice de massa corporanea é:" + imc);
+
+        if(imc<20) {
+            System.out.println("Abaixo do peso");
+        }
+        else(imc>=20 && <25) {
+            System.out.println("Normal");
+        }
+        else(imc>=25 && <30) {
+            System.out.println("Sobre peso");
+        }
+        else(imc>=30 && <40) {
+            System.out.println("Obesidade");
+        }
+    }
+}
