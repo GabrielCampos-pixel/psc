@@ -1,6 +1,6 @@
 import java.util.*
-public class MediaAritmetica{
-    public static void main(String args[]){
+public class MediaAritmetica {
+    public static void main(String args[]) {
         Scanner teclado = new Scanner(System.in);
         double primeiraNota, segundaNota, terceiraNota, media;
         System.out.println("digite a primeira nota");
