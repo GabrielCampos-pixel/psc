@@ -1,0 +1,15 @@
+import java.util.*;
+public class Git {
+    public static void main(String args[]) {
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("informe o comando git");
+        int comando = teclado.nextInt();
+
+        if(comando=git clone) {
+            System.out.println("Verdadeiro");
+        }
+        else {
+            System.out.println("Falso");
+        }
+    }
+}
