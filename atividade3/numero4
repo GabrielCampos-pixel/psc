@@ -1,0 +1,27 @@
+import java.util.*;
+public class Salario {
+    public static void main(String args[]) {
+        Scanner teclado = new Scanner(System.in);
+        double somaSalarios = 0;
+        int somaFilhos = 0;
+        int totalHabitantes = 0;
+        System.out.println("digite o salario");
+        double salario = teclado.nextDouble();
+        System.out.println("digite o numero de filhos");
+        int filhos = teclado.nextInt();
+        
+        while(salario>=0) {
+            somaSalarios += salario;
+            somaFilhos += filhos;
+            totalHabitantes++;
+            System.out.println("digite o salario");
+            double salario = teclado.nextDouble();
+            System.out.println("digite o numero de filhos");
+            int filhos = teclado.nextInt();
+        }
+        else(salario<0) {
+            System.out.println("A media dos salarios é :" + somaSalarios/totalHabitantes);
+            System.out.println("A media dos filhos é :" + somaFilhos/totalHabitantes);
+        }
+    }     
+}
