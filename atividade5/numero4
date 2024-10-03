@@ -2,6 +2,7 @@ import.java.util.*
 public class MediaIdade {
     public static void main(String args[]) {
         Scanner teclado = new Scanner(System.in);
+        int g
 
     }
 }
