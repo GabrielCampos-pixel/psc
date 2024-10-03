@@ -2,7 +2,21 @@ import.java.util.*
 public class MediaIdade {
     public static void main(String args[]) {
         Scanner teclado = new Scanner(System.in);
-        int g
+        int somaIdades = 0;
+        int totalIdades = 0;
 
+        System.out.println("Digite as idades");
+
+        for(;;) {
+            int idade = teclado.nextInt();
+            if(idade=>0){
+                somaIdades += idade;
+                totalIdades++;
+            }
+            else(idade<0){
+                System.out.println("A media das idades é :" + somaIdades/totalIdades);
+                System.out.println("Finalizar");
+            }    
+        }
     }
 }
