@@ -1,5 +1,6 @@
-import java.util.*
-public class MediaAritmetica {
+package EstruturaSequencial;
+import java.util.*;
+public class Sequencial7 {
     public static void main(String args[]) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("digite o valor do salario minimo");

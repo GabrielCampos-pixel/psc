@@ -1,5 +1,6 @@
-import java.util.*
-public class Area {
+package EstruturaSequencial;
+import java.util.*;
+public class Sequencial5 {
     public static void main(String args[]) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("digite o valor da diagonal maior");

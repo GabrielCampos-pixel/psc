@@ -1,5 +1,6 @@
-import java.util.*
-public class Cotacao {
+package EstruturaSequencial;
+import java.util.*;
+public class Sequencial3 {
     public static void main(String args[]) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("digite a cotação do dolar");

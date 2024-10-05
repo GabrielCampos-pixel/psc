@@ -1,5 +1,6 @@
-import java.util.*
-public class Idade {
+package EstruturaSequencial;
+import java.util.*;
+public class Sequencial2 {
     public static void main(String args[]) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("digite o ano de nascimento");

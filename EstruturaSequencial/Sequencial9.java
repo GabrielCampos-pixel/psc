@@ -1,5 +1,6 @@
-import java.util.*
-public class Triangulo {
+package EstruturaSequencial;
+import java.util.*;
+public class Sequencial9 {
     public static void main(String args[]) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("digite o valor do primeiro cateto");
