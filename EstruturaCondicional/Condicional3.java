@@ -1,5 +1,6 @@
+package EstruturaCondicional;
 import java.util.*;
-public class Notas {
+public class Condicional3 {
     public static void main(String args[]) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("digite tres notas");
@@ -9,13 +10,13 @@ public class Notas {
         med = (nota1 + nota2 + nota3)/3;
         System.out.println("A media entre as tres notas é:" + med);
 
-        if(med>=7 && <=10) {
+        if(med>=7 && med<=10) {
             System.out.println("Aprovado");
         }
-        else(med>=3 && <7) {
+        else if(med>=3 && med<7) {
             System.out.println("Exame");
         }
-        else(med>=0 && <3) {
+        else if(med>=0 && med<3) {
             System.out.println("Reprovado");
         }
     }

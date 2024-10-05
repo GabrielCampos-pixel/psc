@@ -1,5 +1,6 @@
+package EstruturaCondicional;
 import java.util.*;
-public class Diaria {
+public class Condicional11 {
     public static void main(String args[]) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("informe o numero de diarias");
@@ -8,12 +9,14 @@ public class Diaria {
         if(diaria<15) {
             System.out.println("O valor a ser pago é R$ :" + 15*diaria+500);
         }
-        else(diaria=15) {
+        else if(diaria=15) {
             System.out.println("O valor a ser pago é R$ :" + 10*diaria+500);
         }
-        else(diaria>15) {
+        else if(diaria>15) {
             System.out.println("O valor a ser pago é R$ :" + 5*diaria+500);
         }
+        else {
+            System.out.println("Error");
         }
     }
 }

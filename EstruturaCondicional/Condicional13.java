@@ -1,3 +1,4 @@
+package EstruturaCondicional;
 import java.util.*;
 public class Apartamento {
     public static void main(String args[]) {
@@ -7,23 +8,26 @@ public class Apartamento {
         System.out.println("informe a quantidade de dias hospedados");
         int dias = teclado.nextInt();
 
-        if(apto=simples && dias<10) {
+        if(apto==simples && dias<10) {
             System.out.println("Cobra 100 reais");
         }
-        else(apto=simples && dias<15) {
+        else if(apto==simples && dias<15) {
             System.out.println("Cobra 90 reais");
         }
-        else(apto=simples && dias>15) {
+        else if(apto==simples && dias>15) {
             System.out.println("Cobra 80 reais");
         }
-        if(apto=duplo && dias<10) {
+        if(apto==duplo && dias<10) {
             System.out.println("Cobra 140 reais");
         }
-        else(apto=duplo && dias<15) {
+        else if(apto==duplo && dias<15) {
             System.out.println("Cobra 120 reais");
         }
-        else(apto=duplo && dias>15) {
+        else if(apto==duplo && dias>15) {
             System.out.println("Cobra 100 reais");
+        }
+        else {
+            System.out.println("Error");
         }
     }
 }

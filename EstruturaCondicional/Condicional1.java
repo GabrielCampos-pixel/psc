@@ -1,5 +1,6 @@
+package EstruturaCondicional;
 import java.util.*;
-public class Nota {
+public class Condicional1 {
     public static void main(String args[]) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("digite duas notas");
