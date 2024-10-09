@@ -1,5 +1,6 @@
-import.java.util.*
-public class Fatorial {
+package For;
+import java.util.*;
+public class For3 {
     public static void main(String args[]) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Digite um numero");
@@ -11,7 +12,7 @@ public class Fatorial {
             fatorial = num*i;
             System.out.println("O fatorial do num1 é :" + fatorial);
         }
-        else(num<0) {
+        else {
             System.out.println("Numero invalido");
         }
     }

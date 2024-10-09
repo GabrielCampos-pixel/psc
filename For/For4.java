@@ -1,5 +1,6 @@
-import.java.util.*
-public class MediaIdade {
+package For;
+import java.util.*;
+public class For4 {
     public static void main(String args[]) {
         Scanner teclado = new Scanner(System.in);
         int somaIdades = 0;
@@ -9,11 +10,11 @@ public class MediaIdade {
 
         for(;;) {
             int idade = teclado.nextInt();
-            if(idade=>0){
+            if(idade>=0){
                 somaIdades += idade;
                 totalIdades++;
             }
-            else(idade<0){
+            else {
                 System.out.println("A media das idades é :" + somaIdades/totalIdades);
                 System.out.println("Finalizar");
             }    

@@ -1,6 +1,7 @@
-import.java.util.*
-public class Inteiros {
-    publis static void main(String args[]) {
+package For;
+import java.util.*;
+public class For2 {
+    public static void main(String args[]) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Digite um numero");
         int n1 = input.nextInt();
