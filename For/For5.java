@@ -3,30 +3,31 @@ import java.util.*;
 public class For5 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        Integer intma = null;
-        Integer intmen = null;
+        Integer maior = null;
+        Integer menor = null;
 
-        while (true) {
-            System.out.print("Digite um número inteiro:");
-            String input = scanner.nextLine();
+        for (;;) {
+            System.out.print("Digite um número inteiro (ou sair para encerrar):");
+            String entrada = scanner.nextLine();
             try {
                 int num = Integer.parseInt(input);
-                if (intma == null || num > intma) {
-                    intma = num;
+                if (maior == null || num > maior) {
+                    maior = num;
                 }
-                if (intmen == null || num < intmen) {
-                    intmen = num;
+                if (menor == null || num < menor) {
+                    menor = num;
                 }
 
             } catch (NumberFormatException e) {
-                System.out.println("Este número não é inteiro.");
+                System.out.println("Entrada invalida.Por favor, digite um numero inteiro ou sair");
             }
         }
-        if(intma != null && intmen != null) {
-            System.out.println("O maior número inteiro é: " + intma);
-            System.out.println("O menor número inteiro é: " + intmen);
-        } else {
-            System.out.println("Nenhum número inteiro informado.");
+        if(maior != null && menor != null) {
+            System.out.println("O maior número informado foi : " + maior);
+            System.out.println("O menor número informado foi : " + menor);
+        } 
+        else {
+            System.out.println("Nenhum valido foi informado.");
         }
     }
 }
