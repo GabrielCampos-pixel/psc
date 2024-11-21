@@ -1,4 +1,5 @@
-package Retangulo;
+package psc;
+import Retangulo.java;
 import java.util.Scanner;
 public class Main {
     public static void main(String Args[]) {
