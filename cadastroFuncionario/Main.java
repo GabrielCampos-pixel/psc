@@ -1,5 +1,5 @@
-package cadastroFuncionario;
-import Funcionario.java;
+import cadastroFuncionario.Cadastro;
+import cadastroFuncionario.Funcionario;
 import java.util.*;
 public class Main {
     public static void main(String[] args) {
@@ -11,12 +11,12 @@ public class Main {
             String nome = teclado.nextLine();
             System.out.print("Idade: ");
             int idade = teclado.nextInt();
-            scanner.nextLine();
+            teclado.nextLine();
             System.out.print("Cargo: ");
             String cargo = teclado.nextLine();
             System.out.print("Salário: ");
             double salario = teclado.nextDouble();
-            scanner.nextLine();
+            teclado.nextLine();
             System.out.print("Telefone: ");
             String telefone = teclado.nextLine();
             System.out.print("Endereço: ");

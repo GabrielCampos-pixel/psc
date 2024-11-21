@@ -1,14 +1,13 @@
-package psc;
-import Retangulo.java;
+import psc.Retangulo;
 import java.util.Scanner;
 public class Main {
     public static void main(String Args[]) {
         Retangulo ret = new Retangulo();
-        Scanner input = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Informe a altura do retângulo: ");
-        ret.setAltura(input.nextFloat());
+        ret.setAltura(scanner.nextFloat());
         System.out.print("Informe a largura do retângulo: ");
-        ret.setLargura(input.nextFloat());
+        ret.setLargura(scanner.nextFloat());
         ret.exibe();
     }
 }

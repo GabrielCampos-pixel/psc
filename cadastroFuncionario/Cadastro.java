@@ -1,5 +1,5 @@
 package cadastroFuncionario;
-import Funcionario.java;
+import cadastroFuncionario.Funcionario;
 public class Cadastro {
     private Funcionario[] funcionarios;
     private int contador;
