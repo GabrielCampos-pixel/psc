@@ -20,5 +20,6 @@ public class Main {
         contaCorrente.sacar(saque);
         System.out.println("\nDados da conta após o saque:");
         contaCorrente.exibe();
+        teclado.close();
     }
 }
